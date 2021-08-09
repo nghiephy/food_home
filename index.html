@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header section -->
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navigation sticky">
+                    <a href="" class="logo">Food<span>.</span></a>
+                    <ul class="navigation-list hide-on-mobile">
+                        <li class="navigation-item" ><a href="#banner">Home</a></li>
+                        <li class="navigation-item" ><a href="#about">About</a></li>
+                        <li class="navigation-item" ><a href="#menu">Menu</a></li>
+                        <li class="navigation-item" ><a href="#expert">Expert</a></li>
+                        <li class="navigation-item" ><a href="#testimonials">Testimonials</a></li>
+                        <li class="navigation-item" ><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <label for="mobile-bars-checkbox" class="mobile-bars-wrap hide-on-tablet-pc">
+                        <i class="header__mobile-bars-icon fas fa-bars"></i>
+                    </label>
+
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Navbars in mobile -->
+        <input type="checkbox" hidden name="" id="mobile-bars-checkbox">
+        <label for="mobile-bars-checkbox" class="mobile-overlay hide-on-tablet-pc" ></label>
+        <div class="header-mobile-bars hide-on-tablet-pc">
+            <label for="mobile-bars-checkbox" class="bars-close">
+                <i class="fas fa-times"></i>
+            </label>
+
+            <ul class="header-bars-list">
+                <li class="header-bars-item"><a href="#">Đăng nhập</a></li>
+                <li class="header-bars-item"><a href="#">Đăng ký</a></li>
+                <li class="header-bars-item"><a href="#">Cài Đặt</a></li>
+            </ul>
+        </div>
+
+        <!-- Banner section -->
+        <section id="banner" class="banner">
+            <div class="grid wide">
+                <div class="content">
+                    <h2 class="animate__animated animate__bounce" >Always Choose Good</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia repellat reiciendis provident, voluptates earum ratione laudantium error animi quas? Asperiores porro aut rerum fugit nam fuga fugiat, ullam rem voluptas?
+                        <br><br>
+                        <a href="" class="btn-banner">Our Menu</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="grid wide about" id="about" >
+            <div class="about-wrap row">
+                <div class="about-content col l-6" data-aos="fade-right" data-aos-delay="100">
+                    <h2><span>A</span>bout Us</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptatem natus ipsa aut aperiam nostrum animi. Ea fuga ipsa tempore numquam, distinctio earum. Fugiat necessitatibus quas libero, quibusdam ex corporis!
+                        <br><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, numquam quas esse iste tempora placeat iusto illo molestias harum fuga!
+                    </p>
+                </div>
+                <div class="about-img col l-6" data-aos="fade-left" data-aos-delay="100">
+                    <img src="./assets/img/img1.jpg" alt="about-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="grid wide menu" id="menu">
+            <div class="menu-wrap">
+                <div class="menu-tilte" data-aos="fade-right" data-aos-delay="100">
+                    <h2>Our <span>M</span>enu</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, vel?</p>
+                </div>
+
+                <div class="row menu-list">
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu1.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu2.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu3.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu4.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu5.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12" data-aos="zoom-out-up" data-aos-delay="100">
+                        <div class="menu-item">
+                            <img class="menu-item__img" src="./assets/img/menu6.jpg" alt="">
+                            <h2 class="menu-item__name" >Special Salads</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="" class="btn-menu">See More</a>
+            </div>
+        </section>
+
+        <!-- Expert section -->
+        <section class="grid wide expert" id="expert" >
+            <div class="expert-wrap" data-aos="zoom-out-up" data-aos-delay="100">
+                <div class="expert-heading">
+                    <h2>Our Kitchen <span>E</span>xpert</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+                
+                <div class="row expert-list">
+                    <div class="col l-3 m-6 c-12" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="expert-item">
+                            <div class="expert-img-box">
+                                <img src="./assets/img/expert1.jpg" alt="">
+                            </div>
+                            <div class="expert-name">John Robonto</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="expert-item">
+                            <div class="expert-img-box">
+                                <img src="./assets/img/expert2.jpg" alt="">
+                            </div>
+                            <div class="expert-name">Heli Mary</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="expert-item">
+                            <div class="expert-img-box">
+                                <img src="./assets/img/expert3.jpg" alt="">
+                            </div>
+                            <div class="expert-name">Ronando John</div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="expert-item">
+                            <div class="expert-img-box">
+                                <img src="./assets/img/expert4.jpg" alt="">
+                            </div>
+                            <div class="expert-name">Colombo Alex</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials" id="testimonials" >
+            <div class="grid wide testimonials-wrap">
+                <div class="testimonials-heading">
+                    <h2>They <span>S</span>aid About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+                <div class="testimonials-content">
+                    <div class="row testimonials-content-list">
+                        <div class="col l-4 m-6 c-12" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="testimonials-content-item">
+                                <div class="content-item__img-box">
+                                    <img src="./assets/img/testi1.jpg" alt="" srcset="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus commodi debitis maiores unde, explicabo dolor rerum magnam nesciunt rem culpa sequi assumenda nam inventore officiis distinctio laudantium asperiores id incidunt.</p>
+                                <h2>John Witch</h2>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="testimonials-content-item">
+                                <div class="content-item__img-box">
+                                    <img src="./assets/img/testi2.jpg" alt="" srcset="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus commodi debitis maiores unde, explicabo dolor rerum magnam nesciunt rem culpa sequi assumenda nam inventore officiis distinctio laudantium asperiores id incidunt.</p>
+                                <h2>Marry Mina</h2>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="testimonials-content-item">
+                                <div class="content-item__img-box">
+                                    <img src="./assets/img/testi3.jpg" alt="" srcset="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus commodi debitis maiores unde, explicabo dolor rerum magnam nesciunt rem culpa sequi assumenda nam inventore officiis distinctio laudantium asperiores id incidunt.</p>
+                                <h2>Tech Nical</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact" id="contact" >
+            <div class="grid wide contact-wrap">
+                <div class="contact-heading" data-aos="fade-right" data-aos-duration="3000">
+                    <h2><span>C</span>ontact Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col l-5 m-5 c-12 form-contact" data-aos="fade-up" data-aos-duration="3000">
+                        <h3>Send Message</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" name="" id="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" name="" id="">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" id="" placeholder="Message" cols="30" rows="6"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="copy-right">
+            <p>Copyright 2021 <a href="https://www.lapnghiepvn.cf">www.lapnghiepvn.cf</a> </p>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

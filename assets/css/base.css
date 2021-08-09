@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --height-header: 80px;
+    --height-logo: 50px;
+    --primary-color: #ff0157;
+}
+
+* {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+@keyframes header-zoomin {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
